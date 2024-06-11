@@ -10,7 +10,7 @@ public class CurrencyConverter {
 
     static Scanner in = new Scanner(System.in);
 
-    private static final String API_KEY = "56574dc3de9298379f00d30e"; // Replace with your API key
+    private static final String API_KEY = "56574dc3de9298379f00d30e"; 
     private static final String BASE_URL = "https://v6.exchangerate-api.com/v6/";
 
     public static void main(String[] args) 
