@@ -1,5 +1,5 @@
 # Encryptix_codes
-Internship codes for encryptix Java Developer Internship
+# Internship codes for encryptix Java Developer Internship
 # Number Game- Taking a random number from a user specified range and taking guess from the user. User can set the number of rounds and attempts in each round. 10 points for correct guess and -5 points for incorrect guess. Final score will be calculated after each round
 
 # Student Grade Calculator - It will take user input for marks achieved in each subject, calculate the total and and give percentage and letter grade accordingly.
