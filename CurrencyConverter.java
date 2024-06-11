@@ -6,7 +6,8 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.Scanner;
 
-public class CurrencyConverter {
+public class CurrencyConverter 
+{
 
     static Scanner in = new Scanner(System.in);
 
@@ -36,7 +37,8 @@ public class CurrencyConverter {
         }
     }
 
-    public static double convertCurrency(String Base_cr, String Target_cr, double amount) throws IOException, InterruptedException {
+    public static double convertCurrency(String Base_cr, String Target_cr, double amount) throws IOException, InterruptedException 
+    {
         String urlString = BASE_URL + API_KEY + "/latest/" + Base_cr;
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
