@@ -25,10 +25,13 @@ public class CurrencyConverter {
         System.out.println("Enter amount");
         double amount = in.nextDouble();
 
-        try {
+        try 
+        {
             double convertedAmount = convertCurrency(Base_cr, Target_cr, amount);
             System.out.println(amount + " " + Base_cr + " = " + convertedAmount + " " + Target_cr);
-        } catch (Exception e) {
+        } 
+        catch (Exception e) 
+        {
             e.printStackTrace();
         }
     }
